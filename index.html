@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lakshyamart</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Lakshyamart</h2>
+            <p>Your one-stop shop for quality products at the best prices!</p>
+            <img src="Welcome.jpeg" alt="Welcome Image" class="responsive">
+        </section>
+
+        <section id="about" class="columns">
+            <h2>About Us</h2>
+            <div class="column">
+                <h3>Our Story</h3>
+                <p>We started with a vision to provide quality products to everyone.</p>
+                <img src="ourvision.jpg" alt="Our Story" class="responsive">
+            </div>
+            <div class="column">
+                <h3>Our Mission</h3>
+                <p>Our mission is to bring the best products at unbeatable prices.</p>
+                <img src="ourmission.jpg" alt="Our Mission" class="responsive">
+            </div>
+            <div class="column">
+                <h3>Our Values</h3>
+                <p>Customer satisfaction and quality assurance are our top priorities.</p>
+                <img src="ourvalues.jpg" alt="Our Values" class="responsive">
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>Bags</h3>
+                    <p>High-quality product with excellent features.</p>
+                    <img src="products.png" alt="Product One" class="responsive">
+                </div>
+                <div class="column">
+                    <h3>Accessories</h3>
+                    <p>Reliable and durable, perfect for everyday use.</p>
+                    <img src="products2.jpg" alt="Product Two" class="responsive">
+                </div>
+                <div class="column">
+                    <h3>Clothes</h3>
+                    <p>Top-rated product by our customers.</p>
+                    <img src="products3.jpg" alt="Product Three" class="responsive">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: info@lakshyamart.com</p>
+                <p>Phone: +91 8696372672</p>
+                <p>Address: 98-C Vaishali Nagar, Jaipur, India</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lakshyamart. All rights reserved.</p>
+    </footer>
+</body>
+</html>
